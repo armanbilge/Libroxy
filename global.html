@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script type="text/javascript">
+            function access(event) {
+                if (event.command === "access") {
+                    var url = event.target.browserWindow.activeTab.url;
+                    url = url.split('/');
+                    url[2] += '.' + safari.extension.settings.proxyAddress;
+                    event.target.browserWindow.activeTab.url = url.join('/');
+                }
+            }
+
+            safari.application.addEventListener("command", access, false);
+        </script>
+    </head>
+</html>
