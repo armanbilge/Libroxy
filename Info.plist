@@ -9,7 +9,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Libroxy</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.compevol.libroxy</string>
+	<string>com.armanbilge.libroxy</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -63,6 +63,6 @@
 		</dict>
 	</dict>
 	<key>Website</key>
-	<string>http://www.armanbilge.com/libroxy</string>
+	<string>https://github.com/armanbilge/Libroxy</string>
 </dict>
 </plist>
